@@ -528,13 +528,11 @@ form{
 /* media querie for small laptops */
 @media screen and (max-width: 991px) {
     #firstH{
-        color:blue;
+        /* color:blue; */
         /* font-size: 4vh; */
     }
     
-    #secondH{
-        color:blue;
-    }
+    
     #button{
         margin-bottom: 3rem;
     }
@@ -578,7 +576,7 @@ form{
 /* Media Queries for tablets  lg-screen */
 @media screen and (max-width:768px){
     #firstH{
-        color:crimson;
+        /* color:crimson; */
         font-size: large;
     }
     #middleH{
@@ -587,7 +585,7 @@ form{
         font-weight: bold;
     }
     #secondH{
-        color:crimson;
+        /* color:crimson; */
         text-align: center;
         /* font-size:medium; */
     }
@@ -653,19 +651,19 @@ form{
 
 /* Media Querie for mobile */
 @media screen and (max-width:576px){
-    #firstH{
-            color: orangered;
-            
-        }
+    .container{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    
+    
     #middleH{
         font-size:xx-large;
     }
-        
-    #secondH{
-            color:orangered;
-    }
+    
+    
     #image{
-        height:35vh
+        height:40vh
     }
     #image img{
         width: 230px;
